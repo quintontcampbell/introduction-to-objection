@@ -1,2 +1,3 @@
 const Model = require("./Model")
-module.exports = { Model }
+const Song = require("./Song")
+module.exports = { Model, Song }
